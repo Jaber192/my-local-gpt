@@ -8,6 +8,20 @@ A **local RAG-powered API** that answers questions about people using their own 
 
 ![RAG FastAPI ChromaDB Flow Diagram](rag-fastapi-chroma-flow-diagram.webp)
 
+## Why RAG?
+
+Without retrieval, LLMs may generate incorrect or generic answers.
+
+With RAG, responses are grounded in actual user data, reducing hallucination and improving factual accuracy.
+
+Example:
+
+Without RAG:
+"She is a software engineer." (generic)
+
+With RAG:
+"Alice is a software engineer with 5 years of experience in Python and ML, graduated from MIT." (grounded)
+
 ### The Pipeline:
 
 1. **📄 RETRIEVE** - ChromaDB searches your documents using semantic similarity to find relevant context
