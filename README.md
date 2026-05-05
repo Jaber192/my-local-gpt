@@ -4,7 +4,7 @@ A **local RAG-powered API** that answers questions about people using their own 
 
 ## What is this?
 
-**Retrieval-Augmented Generation (RAG)** is a technique that lets AI models answer questions based on your own documents instead of relying solely on their training data. This project implements a [...]
+**Retrieval-Augmented Generation (RAG)** is a technique that lets AI models answer questions based on your own documents instead of relying solely on their training data.
 
 ![RAG FastAPI ChromaDB Flow Diagram](rag-fastapi-chroma-flow-diagram.webp)
 
