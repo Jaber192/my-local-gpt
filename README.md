@@ -4,7 +4,9 @@ A **local RAG-powered API** that answers questions about people using their own 
 
 ## What is this?
 
-**Retrieval-Augmented Generation (RAG)** is a technique that lets AI models answer questions based on your own documents instead of relying solely on their training data. This project implements a complete RAG pipeline running entirely on your machine.
+**Retrieval-Augmented Generation (RAG)** is a technique that lets AI models answer questions based on your own documents instead of relying solely on their training data. This project implements a [...]
+
+![RAG FastAPI ChromaDB Flow Diagram](rag-fastapi-chroma-flow-diagram.webp)
 
 ### The Pipeline:
 
@@ -88,7 +90,7 @@ curl -X POST "http://localhost:8000/documents" \
   -H "Content-Type: application/json" \
   -d '{
     "user_name": "Alice",
-    "content": "I am a software engineer with 5 years of experience. I specialize in Python and machine learning. I love building scalable systems.\n\nI graduated from MIT with a degree in Computer Science."
+    "content": "I am a software engineer with 5 years of experience. I specialize in Python and machine learning. I love building scalable systems.\n\nI graduated from MIT with a degree in Compute[...]
   }'
 ```
 
@@ -182,7 +184,8 @@ my-local-gpt/
 ├── main.py              # FastAPI application & RAG logic
 ├── requirements.txt     # Python dependencies
 ├── .gitignore          # Git ignore rules
-└── README.md           # This file
+├── README.md           # This file
+└── rag-fastapi-chroma-flow-diagram.webp  # Pipeline diagram
 ```
 
 ## Data Storage
